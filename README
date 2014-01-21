@@ -1,0 +1,8 @@
+Scribe clone from https://github.com/facebook/scribe with debian dir
+
+to create .deb:
+
+clone this repo
+$ cd scribe-deb
+$ dpkg-buildpackage -tc
+  -tc	Cleans source tree after build
